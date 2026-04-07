@@ -142,6 +142,7 @@ I'm a Computer Science student and a fullstack Roblox developer. I also program 
                   width="100%" 
                   height="auto" 
                   controls
+                  muted
                   className="w-full bg-black"
                 >
                   <source src={`${BASE_PATH}/youtube/YTDown.com_YouTube_Chat-ai-Roblox-Studio-using-py_Media_j70S3iJ2rFs_001_1080p.mp4`} type="video/mp4" />
@@ -161,6 +162,7 @@ I'm a Computer Science student and a fullstack Roblox developer. I also program 
                   width="100%" 
                   height="auto" 
                   controls
+                  muted
                   className="w-full bg-black"
                 >
                   <source src={`${BASE_PATH}/youtube/YTDown.com_YouTube_fishing-system_Media_BhVTv-5rh6k_001_1080p.mp4`} type="video/mp4" />
@@ -180,6 +182,7 @@ I'm a Computer Science student and a fullstack Roblox developer. I also program 
                   width="100%" 
                   height="auto" 
                   controls
+                  muted
                   className="w-full bg-black"
                 >
                   <source src={`${BASE_PATH}/youtube/YTDown.com_YouTube_glide-system_Media_7kEfGT7EEI_001_1080p.mp4`} type="video/mp4" />
@@ -199,6 +202,7 @@ I'm a Computer Science student and a fullstack Roblox developer. I also program 
                   width="100%" 
                   height="auto" 
                   controls
+                  muted
                   className="w-full bg-black"
                 >
                   <source src={`${BASE_PATH}/youtube/YTDown.com_YouTube_Grow-a-Garden-System_Media_3uWj-QtPzIw_001_1080p.mp4`} type="video/mp4" />
@@ -218,6 +222,7 @@ I'm a Computer Science student and a fullstack Roblox developer. I also program 
                   width="100%" 
                   height="auto" 
                   controls
+                  muted
                   className="w-full bg-black"
                 >
                   <source src={`${BASE_PATH}/youtube/YTDown.com_YouTube_menu-touchable_Media_nSEtiJYDI70_001_1080p.mp4`} type="video/mp4" />
@@ -237,6 +242,7 @@ I'm a Computer Science student and a fullstack Roblox developer. I also program 
                   width="100%" 
                   height="auto" 
                   controls
+                  muted
                   className="w-full bg-black"
                 >
                   <source src={`${BASE_PATH}/youtube/2026-03-30 02-40-12.mp4`} type="video/mp4" />
