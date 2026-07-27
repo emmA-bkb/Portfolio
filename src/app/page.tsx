@@ -103,23 +103,53 @@ export default function Home() {
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">What I Do</h2>
               <p className="text-neutral-400 text-lg leading-relaxed mb-4">
-                I&apos;m a developer with 3-4 years of specialized experience in Roblox
-                development. I focus on creating immersive gaming experiences by combining strong
-                front-end and back-end development skills. My expertise includes building complex
-                gameplay systems, optimizing performance, and crafting engaging user interfaces.
+                I am a software developer and Computer Science student, specializing in the
+                development of robust, scalable, and high-quality systems.
+              </p>
+              <p className="text-neutral-400 text-lg leading-relaxed mb-4">
+                I have experience with multiple{" "}
+                <strong className="text-white font-semibold">programming languages</strong>,
+                including{" "}
+                <strong className="text-white font-semibold">
+                  Lua, Luau, JavaScript, TypeScript, C#, and Python
+                </strong>
+                .
+              </p>
+              <p className="text-neutral-400 text-lg leading-relaxed mb-4">
+                In addition to programming languages, I have extensive experience with{" "}
+                <strong className="text-white font-semibold">
+                  libraries, frameworks, and development tools
+                </strong>
+                , including{" "}
+                <strong className="text-white font-semibold">
+                  Roact, Bytenet, ProfileStore, BitAntiCheat, TopBarPlus, Satchel
+                </strong>
+                , among others. I leverage these technologies to build performant, maintainable,
+                and well-structured systems while following modern software engineering
+                practices.
+              </p>
+              <p className="text-neutral-400 text-lg leading-relaxed mb-4">
+                I develop systems from the ground up, maintain existing projects, fix bugs,
+                optimize performance, and refactor code. My primary goal is to deliver clean,
+                modular, and scalable solutions with a strong emphasis on architecture, code
+                quality, and maintainability.
               </p>
               <p className="text-neutral-400 text-lg leading-relaxed">
-                Beyond Roblox, I work with multiple programming languages and technologies,
-                constantly expanding my skillset to solve diverse problems. I&apos;m passionate
-                about turning creative ideas into interactive experiences.
+                Every project I build is designed with long-term maintenance in mind. I
+                prioritize clear project organization, comprehensive documentation, and readable
+                code, ensuring that other developers can quickly understand the codebase and
+                extend or modify it without unnecessary complexity.
               </p>
             </div>
           </InView>
 
           <InView delay="delay-300">
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-2 gap-4 md:sticky md:top-28">
               {highlights.map((h) => (
-                <div key={h.label} className="rounded-2xl border border-white/10 bg-white/[0.03] p-6">
+                <div
+                  key={h.label}
+                  className="rounded-2xl border border-white/10 bg-white/[0.03] p-6 hover:border-red-400/30 hover:bg-white/[0.05] transition-colors"
+                >
                   <div className="text-2xl font-bold text-red-400 mb-1">{h.value}</div>
                   <div className="text-sm text-neutral-400">{h.label}</div>
                 </div>
