@@ -5,22 +5,6 @@ import Link from 'next/link';
 export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-gray-900 border-b border-gray-700/50">
-      <style>{`
-        @keyframes fadeInDown {
-          from {
-            opacity: 0;
-            transform: translateY(-30px);
-          }
-          to {
-            opacity: 1;
-            transform: translateY(0);
-          }
-        }
-        
-        .animate-fade-in-down {
-          animation: fadeInDown 0.6s ease-out forwards;
-        }
-      `}</style>
       <nav className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center animate-fade-in-down">
         <Link href="/" className="text-2xl font-bold text-white hover:text-gray-300 transition">
           emmA

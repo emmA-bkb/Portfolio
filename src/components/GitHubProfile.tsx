@@ -145,7 +145,7 @@ export default function GitHubProfile() {
         rel="noopener noreferrer"
         className="block w-full bg-black hover:bg-gray-900 text-white font-semibold py-2 px-4 rounded-lg text-center transition flex items-center justify-center gap-2"
       >
-        <img src={`${BASE_PATH}/github-icon.png?t=${Date.now()}`} alt="GitHub" className="w-5 h-5" />
+        <img src={`${BASE_PATH}/github-icon.png`} alt="GitHub" className="w-5 h-5" />
         Visit my GitHub
       </a>
     </div>

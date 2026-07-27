@@ -15,8 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Meu Portfólio",
-  description: "Portfolio pessoal com meus projetos e trabalhos",
+  title: "emmA — Full-Stack Roblox Developer",
+  description:
+    "Portfolio of emmA, a full-stack Roblox developer specializing in gameplay systems, performance optimization, and interactive user experiences.",
 };
 
 export default function RootLayout({
@@ -26,12 +27,13 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="pt-BR"
+      lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-gray-900">
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
